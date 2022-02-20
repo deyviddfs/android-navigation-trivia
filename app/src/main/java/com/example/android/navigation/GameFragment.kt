@@ -72,7 +72,6 @@ class GameFragment : Fragment() {
         // Shuffles the questions and sets the question index to the first question.
         randomizeQuestions()
 
-        // Bind this fragment class to the layout
         binding.game = this
 
         // Set the onClickListener for the submitButton
